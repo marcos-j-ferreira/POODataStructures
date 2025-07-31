@@ -1,13 +1,22 @@
 package com.marcos.study.helloworld;
 
 
+// classe de encapsulamento
+import com.marcos.study.encapsulamento.Banco;
+import com.marcos.study.encapsulamento.tarefa.Produtos;
+
+
+
+import com.marcos.study.testsclasse.Test;
+
+
 public class Main{
 
     public static void main(String[] args){
-        System.out.println("Hello, World!");
 
-        for(int i =0; i < 100; i++){
-            System.out.println("Hello, WOrld");
-        }
+        Test testes= new Test();
+
+        testes.encapsulamento();
+
     }
 }
