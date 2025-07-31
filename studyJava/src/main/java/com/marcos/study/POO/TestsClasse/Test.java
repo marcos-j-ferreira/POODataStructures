@@ -2,8 +2,8 @@ package com.marcos.study.testsclasse;
 
 
 // classe de encapsulamento
-import com.marcos.study.encapsulamento.Banco;
-import com.marcos.study.encapsulamento.tarefa.Produtos;
+import com.marcos.study.poo.encapsulamento.Banco;
+import com.marcos.study.poo.encapsulamento.tarefa.Produtos;
 
 
 public class Test{

@@ -1,4 +1,4 @@
-package com.marcos.study.encapsulamento;
+package com.marcos.study.poo.encapsulamento;
 
 
 public class Banco {
