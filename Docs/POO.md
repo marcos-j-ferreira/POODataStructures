@@ -1,23 +1,29 @@
 ## Encapsulamento
 
-Uma forma de definir o scope das varáveis, dos dados que serão minipoludos por ela, podendo definir uma variável como:
+Encapsulamento é uma forma de controlar o **escopo** e o **acesso aos dados** dentro de uma classe. Ele permite proteger os atributos da classe e manipular seus valores de forma segura. As variáveis podem ser definidas com diferentes níveis de acesso:
 
-- `private:` Ela só pode ser acessivel com getter e setter, atráves de métods, dessa forma protege os dados.
-- `protected:` A classe que herda pode acessar a variável.
+* `private`: A variável só pode ser acessada por meio de métodos públicos (getters e setters). Essa abordagem protege os dados e impede modificações diretas.
+* `protected`: Permite que classes filhas (que estendem a classe atual) acessem o atributo diretamente.
 
-> Em suma é uma forma mais segura de proteger os dados, variáveis que ela vai manipular.
+> Em resumo, o encapsulamento é uma prática que promove segurança, organização e controle sobre os dados manipulados por uma classe.
 
-**Uma classe com esse modelo:**  [Encapsulamento](../studyJava/src/main/java/com/marcos/study/POO/encapsulamento/Banco.java)
+**Exemplo de classe com encapsulamento:**
+[Encapsulamento](../studyJava/src/main/java/com/marcos/study/POO/encapsulamento/Banco.java)
 
+---
 
-## Herança 
+## Herança
 
-Ela herda valores e métodos de outra classe, não só economizando na escrita, mas permite que as classes tenham uma ligação, ou hierárquia com outras classes. 
-- A classe principal é chamada de `classe mãe`
+Herança é um princípio da orientação a objetos que permite que uma classe (chamada de **classe filha**) herde atributos e métodos de outra classe (chamada de **classe mãe**).
 
-Você pode acessar as variáveis e fazer modificações nela, se atentando para o escopo, se elas for `private` terá que usar getter e setter, se for só `protected` pode ser acessadas.
+Essa prática não só reduz a repetição de código, como também estabelece uma hierarquia entre as classes, promovendo reutilização e organização.
 
-- importante destacar que pode ser chamado outros métodos com `super`.
+* A classe filha pode acessar os atributos da classe mãe, respeitando os níveis de acesso:
 
-**Examplo de classe:** [Classe mãe](../studyJava/src/main/java/com/marcos/study/POO/heranca/Pessoa.java) <------> 
-[Classe que herda](../studyJava/src/main/java/com/marcos/study/POO/heranca/Aluno.java)
+  * Se o atributo for `private`, será necessário utilizar os getters e setters.
+  * Se for `protected`, ele poderá ser acessado diretamente pela classe filha.
+* A palavra-chave `super` pode ser utilizada para chamar métodos ou construtores da classe mãe.
+
+**Exemplos de classes com herança:**
+[Classe mãe: Pessoa.java](../studyJava/src/main/java/com/marcos/study/POO/heranca/Pessoa.java)
+[Classe filha: Aluno.java](../studyJava/src/main/java/com/marcos/study/POO/heranca/Aluno.java)
