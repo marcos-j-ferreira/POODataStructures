@@ -25,5 +25,5 @@ Essa prática não só reduz a repetição de código, como também estabelece u
 * A palavra-chave `super` pode ser utilizada para chamar métodos ou construtores da classe mãe.
 
 **Exemplos de classes com herança:**
-[Classe mãe: Pessoa.java](../studyJava/src/main/java/com/marcos/study/POO/heranca/Pessoa.java)
+[Classe mãe: Pessoa.java](../studyJava/src/main/java/com/marcos/study/POO/heranca/Pessoa.java) <----->
 [Classe filha: Aluno.java](../studyJava/src/main/java/com/marcos/study/POO/heranca/Aluno.java)
