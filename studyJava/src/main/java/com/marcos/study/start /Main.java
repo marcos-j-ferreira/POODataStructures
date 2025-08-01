@@ -1,4 +1,4 @@
-package com.marcos.study.helloworld;
+package com.marcos.study.start;
 
 
 // classe de encapsulamento
@@ -18,12 +18,13 @@ public class Main{
 
     public static void main(String[] args){
 
-       // Test testes= new Test();
-       // testes.encapsulamento();
+       Test testes= new Test();
+        //testes.encapsulamento();
 
-       TesteTask01 t1 = new TesteTask01();
+        testes.heraca();
 
-       t1.array();
+       //TesteTask01 t1 = new TesteTask01();
+       //t1.array();
 
     }
 }
