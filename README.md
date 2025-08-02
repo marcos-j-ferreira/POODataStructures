@@ -1,4 +1,5 @@
 # POODataStructures
+<<<<<<< HEAD
 
 The purpose of this repository is to enhance my proficiency in **Object-Oriented Programming (OOP)** and **Data Structures** through practical and theoretical studies.
 
@@ -7,3 +8,12 @@ The purpose of this repository is to enhance my proficiency in **Object-Oriented
 * Prática e revisão de conceitos sobre **classes** e princípios da **POO**.
 * Documentação complementar: [POO.md](./Docs/POO.md)
 
+=======
+The purpose of this repository is to enhance my proficiency in object-oriented programming (OOP) and data structures
+
+
+
+## POO
+
+>Todas as informações de POO estão nesse documento: [POO](./Docs/POO.md)
+>>>>>>> c2e58d8 (feat: classe polimorfismo)

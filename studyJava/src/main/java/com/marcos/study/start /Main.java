@@ -21,7 +21,9 @@ public class Main{
        Test testes= new Test();
         //testes.encapsulamento();
 
-        testes.heraca();
+        //testes.heraca();
+
+        testes.polimorfismo();
 
        //TesteTask01 t1 = new TesteTask01();
        //t1.array();

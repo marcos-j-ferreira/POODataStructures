@@ -9,6 +9,9 @@ import com.marcos.study.poo.encapsulamento.tarefa.Produtos;
 import com.marcos.study.poo.heraca.Pessoa;
 import com.marcos.study.poo.heraca.Aluno;
 
+import com.marcos.study.poo.polimorfismo.Animal;
+import com.marcos.study.poo.polimorfismo.Gato;
+
 
 public class Test{
 
@@ -45,6 +48,38 @@ public class Test{
         System.out.println("\n");
         aluno.infoAll(); // modificação da classe mãe;
 
+    }
+    public void polimorfismo(){
+        Animal gato1 = new Gato("Spike", 4,"none", "Amarelo");
+        Gato g1 = new Gato("Spike", 5,"none", "Amarelo");
+
+        //gato1.mostrar(); não funciona
+
+        gato1.show(); // Animal -> gato
+        System.out.println("");
+        g1.mostrar();  // Gato -> gato
+        System.out.println("");
+        g1.show();
+        System.out.println("");
+        g1.miar();
+        //gato1.miar();
+        System.out.println("");
+        g1.mover();
+        System.out.println("");
+        gato1.mover();
+        System.out.println("========== ");
+
+        g1.setRaca("GTR");
+        g1.setCor("White");
+        g1.setNome("Rei da lua");
+        g1.setPatas(100);
+        //g1.set.
+
+        g1.show();
+        System.out.println("========== ");
+        g1.mostrar();
+        System.out.println("========== ");
+        g1.mover();
 
     }
 }
