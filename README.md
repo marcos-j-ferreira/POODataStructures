@@ -13,3 +13,8 @@ The purpose of this repository is to enhance my proficiency in object-oriented p
 ## POO
 
 >Todas as informações de POO estão nesse documento: [POO](./Docs/POO.md)
+
+
+## Enum 
+
+>Todas as informações de enums estão nesse documento: [enum](./Docs/Enum.md)
