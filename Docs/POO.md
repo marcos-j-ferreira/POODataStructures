@@ -85,5 +85,21 @@ public class Main {
 > [Classe mãe: `Animal.java`](../studyJava/src/main/java/com/marcos/study/POO/polimorfismo/Animal.java) <----->
 > [Classe filha com polimorfismo: `Gato.java`](../studyJava/src/main/java/com/marcos/study/POO/polimorfismo/Gato.java)
 
+### Classes Abstratas
+
 ---
+
+Uma **classe abstrata** é uma classe que **não pode ser instanciada diretamente com `new`**. Ela pode conter:
+
+* **Métodos concretos**: já implementados na própria classe.
+* **Métodos abstratos**: declarados, mas **sem implementação**, sendo obrigatória sua implementação nas subclasses concretas.
+
+> Exemplo de classe abstrata: [`Funcionario`](../studyJava/src/main/java/com/marcos/study/POO/abstratas/Funcionario.java)
+
+#### Palavras-chave relacionadas:
+
+* `abstract`: usada para definir uma **classe, método ou variável como abstrata**. No caso de métodos, significa que eles não têm corpo (implementação).
+* `extends`: utilizado para **herdar** de uma classe abstrata e **implementar seus métodos abstratos**.
+
+> Exemplo de implementação: [`Programador`](../studyJava/src/main/java/com/marcos/study/POO/abstratas/Programador.java)
 

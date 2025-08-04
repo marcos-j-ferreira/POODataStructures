@@ -9,8 +9,15 @@ import com.marcos.study.poo.encapsulamento.tarefa.Produtos;
 import com.marcos.study.poo.heraca.Pessoa;
 import com.marcos.study.poo.heraca.Aluno;
 
+// classe polimorfismo
 import com.marcos.study.poo.polimorfismo.Animal;
 import com.marcos.study.poo.polimorfismo.Gato;
+
+
+//classe abstract
+import com.marcos.study.poo.abstratas.Funcionario;
+import com.marcos.study.poo.abstratas.Programador;
+import com.marcos.study.poo.abstratas.Gerente;
 
 
 public class Test{
@@ -82,4 +89,28 @@ public class Test{
         g1.mover();
 
     }
+
+    public void abstratas(){
+
+        Funcionario clt = new Programador("Will", 12000);
+        Programador cltp = new Programador("marcos", 12312);
+
+
+        clt.exibirInformacoes();
+        System.out.println(" ");
+        clt.calcularSalario();
+        System.out.println(" ");
+        clt.exibirInformacoes();
+
+        System.out.println(" ");
+        String nome = cltp.getNome();
+        System.out.println(nome);
+        System.out.println(" ");
+
+        Funcionario g1 = new Gerente("Junior", 11000);
+
+        g1.calcularSalario();
+        g1.exibirInformacoes();
+
+    } 
 }

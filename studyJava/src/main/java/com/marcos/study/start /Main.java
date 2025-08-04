@@ -23,7 +23,9 @@ public class Main{
 
         //testes.heraca();
 
-        testes.polimorfismo();
+        //testes.polimorfismo();
+
+        testes.abstratas();
 
        //TesteTask01 t1 = new TesteTask01();
        //t1.array();
