@@ -25,7 +25,9 @@ public class Main{
 
         //testes.polimorfismo();
 
-        testes.abstratas();
+        //testes.abstratas();
+
+        testes.interfaces();
 
        //TesteTask01 t1 = new TesteTask01();
        //t1.array();

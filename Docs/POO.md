@@ -103,3 +103,36 @@ Uma **classe abstrata** é uma classe que **não pode ser instanciada diretament
 
 > Exemplo de implementação: [`Programador`](../studyJava/src/main/java/com/marcos/study/POO/abstratas/Programador.java)
 
+
+### Interfaces
+
+---
+
+Uma **interface** define um **contrato** que as classes devem seguir. Ela **não possui implementação** (até o Java 7), apenas **declarações de métodos** que devem ser implementados pelas classes que a utilizam.
+
+A partir do **Java 8**, interfaces também podem conter:
+
+* **Métodos default**: com implementação padrão.
+* **Métodos estáticos**.
+* **Constantes** (variáveis `public static final`).
+
+> Exemplo de interface: [`Caracteristicas`](../studyJava/src/main/java/com/marcos/study/POO/interfaces/Caracteristicas.java)
+
+#### Palavras-chave relacionadas:
+
+* `interface`: usada para declarar uma interface.
+* `implements`: usada por uma classe para **implementar uma ou mais interfaces**.
+* `default`: define um método com implementação padrão dentro da interface.
+
+> Exemplo de implementação: [`Pato`](../studyJava/src/main/java/com/marcos/study/POO/interfaces/Pato.java)
+
+#### Diferenças principais entre Interface e Classe Abstrata:
+
+| Interface                         | Classe Abstrata                                  |
+| --------------------------------- | ------------------------------------------------ |
+| Não possui construtor             | Possui construtor                                |
+| Pode herdar múltiplas interfaces  | Só pode herdar uma classe                        |
+| Todos os métodos são públicos     | Pode ter métodos com diferentes níveis de acesso |
+| Não possui atributos de instância | Pode possuir atributos de instância              |
+
+---

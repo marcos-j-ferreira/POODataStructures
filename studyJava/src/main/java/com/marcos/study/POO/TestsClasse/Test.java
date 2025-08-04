@@ -19,6 +19,7 @@ import com.marcos.study.poo.abstratas.Funcionario;
 import com.marcos.study.poo.abstratas.Programador;
 import com.marcos.study.poo.abstratas.Gerente;
 
+import com.marcos.study.poo.interfaces.Pato;
 
 public class Test{
 
@@ -113,4 +114,13 @@ public class Test{
         g1.exibirInformacoes();
 
     } 
+
+    public void interfaces(){
+
+        Pato p1 = new Pato();
+
+        p1.voar();
+        p1.nadar();
+
+    }
 }
