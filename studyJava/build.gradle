@@ -6,7 +6,10 @@ plugins {
 }
 
 application {
-	mainClass = 'com.marcos.study.start.Main'
+
+	mainClass = 'com.marcos.study.enumm.Main'
+
+	//mainClass = 'com.marcos.study.start.Main'
 }
 
 group = 'com.marcos'
